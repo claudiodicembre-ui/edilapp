@@ -13,7 +13,7 @@
 //  scriviamo noi.
 // =====================================================================
 
-const VERSIONE = 'edilapp-v1';
+const VERSIONE = 'edilapp-v2';
 
 // Il minimo perche' l'app si apra anche partendo da spenta e senza rete.
 const ESSENZIALI = [

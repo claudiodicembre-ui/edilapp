@@ -35,4 +35,10 @@ if (!window._flutter) {
 }
 _flutter.buildConfig = {"engineRevision":"425cfb54d01a9472b3e81d9e76fd63a4a44cfbcb","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"},{}],"useLocalCanvasKit":true};
 
+
+// Avvio dell'app SENZA il service worker di Flutter.
+// Quello che Flutter genera e' deprecato: si disinstalla da solo e ricarica
+// la pagina. Registrato nello stesso posto del nostro web/sw.js, a ogni visita
+// lo sostituirebbe e l'app smetterebbe di aprirsi senza rete. Il service
+// worker dell'app e' solo sw.js, registrato da index.html.
 _flutter.loader.load();
