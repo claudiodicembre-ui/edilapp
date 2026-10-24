@@ -1,0 +1,20 @@
+{
+  "name": "EdilApp - Gestione Cantieri",
+  "short_name": "EdilApp",
+  "description": "Rilevazione ore, foto dei lavori e gestione delle attivita' in cantiere.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1F3864",
+  "theme_color": "#1F3864",
+  "lang": "it-IT",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "icons/Icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/Icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/Icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/Icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
