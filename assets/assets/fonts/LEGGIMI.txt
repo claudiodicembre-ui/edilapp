@@ -1,0 +1,6 @@
+Caratteri usati nei PDF dei rapporti (lib/core/pdf_rapporti.dart).
+
+Roboto Regular e Bold, di Google, licenza Apache 2.0 (testo completo in
+LICENSE-Roboto.txt). Sono ridotti alle sole lettere latine, accentate
+comprese, e ai segni di punteggiatura: pesano 25 KB l'uno invece di 500.
+Il telefono li scarica solo la prima volta che si prepara un PDF.
